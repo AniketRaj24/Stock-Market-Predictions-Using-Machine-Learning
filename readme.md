@@ -9,12 +9,12 @@ Live demo: fetch any stock ticker (e.g. `GOOG`, `AAPL`, `TSLA`) and see moving a
 ## 🖼️ Results
 
 ### Original vs. Predicted Price (GOOG, test set)
-![Original vs Predicted Price](assets/original_vs_predicted.png)
+![Original vs Predicted Price](original_vs_predicted.png)
 
 The model captures the overall *direction* and *shape* of price movement, but consistently trails the true price and slightly underestimates magnitude — a common and expected pattern for LSTM models trained on raw closing price alone. See [Limitations](#-limitations--honest-notes) below for why, and what would fix it.
 
 ### Price with 100 & 200-Day Moving Averages
-![MA100 vs MA200 vs Close](assets/ma100_ma200_vs_close.png)
+![MA100 vs MA200 vs Close](ma100_ma200_vs_close.png)
 
 ---
 
